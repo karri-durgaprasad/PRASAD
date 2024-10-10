@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+</head>
+<body>
+    <div class="main">
+        <input type="number" name="" id="min">
+        <input type="number" name="" id="max">
+        <button class="submit">click</button>
+        <p data-value="100" class="box">100</p>
+        <p data-value="200" class="box">200</p>
+        <p data-value="300" class="box">300</p>
+        <p data-value="400" class="box">400</p>
+        <p data-value="500" class="box">500</p>
+        <p data-value="600" class="box">600</p>
+        <p data-value="700" class="box">700</p>
+        <p data-value="800" class="box">800</p>
+        <p data-value="900" class="box">900</p>
+        <p data-value="1000" class="box">1000</p>
+    </div>
+    <script>
+        document.querySelector(".submit").addEventListener('click',fuction(){
+            new = +document.getElementById("min").value;
+        })
+    </script>
+</body>
+</html>
